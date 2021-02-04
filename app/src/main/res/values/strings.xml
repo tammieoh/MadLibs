@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MadLibs</string>
+    <string name="welcome">Welcome to Mad Libs!</string>
+    <string name="get_started">Get Started</string>
+    <string name="input_activity">Input Activity</string>
+    <string name="display_activity">Display Activity</string>
+    <string name="generate_button">Generate</string>
+    <string name="toast_message">Missing field.</string>
+    <string name="goHome_button">Go Home</string>
+</resources>
