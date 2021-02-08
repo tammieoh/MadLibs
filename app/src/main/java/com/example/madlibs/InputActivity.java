@@ -95,6 +95,10 @@ public class InputActivity extends AppCompatActivity {
 
     public String createStory(ArrayList<EditText> user_inputs, String[] words) {
         for(int i = 0; i < user_inputs.size(); i++) {
+            if(user_inputs.size() == 1) {
+                story += words[i] + user_inputs.get(i).getText().toString();
+                return story;
+            }
             story += words[i] + user_inputs.get(i).getText().toString();
         }
         story += words[words.length - 1];

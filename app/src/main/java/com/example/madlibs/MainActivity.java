@@ -20,7 +20,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
     private Button button_start;
 
-    private static final String api_url = "http://madlibz.herokuapp.com/api/random?minlength=5&maxlength=10";
+    private static final String api_url = "http://madlibz.herokuapp.com/api/random";
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     @Override
